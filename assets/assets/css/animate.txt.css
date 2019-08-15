@@ -38,24 +38,26 @@
 .section-intro-logo
 {
    height: 100%;
+   line-height: 100%;
+   text-align: center;
    position: relative;
    color: white;
 }
 .section-intro-logo .typewrite
 {
-		margin: 0;
+		/* margin: 0;
    position: absolute;              
    top: 50%;     
-left:45%;   
+left:45%;    */
    transform: translate(0, -50%);
  
 	
 }.section-intro-logo .typewrite1
 {
-		margin: 0;
+		/* margin: 0;
    position: absolute;              
    top: 55%;                        
-	left:45% ;
+	left:45% ; */
    transform: translate(0, -50%);
    
 	

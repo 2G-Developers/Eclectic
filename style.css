@@ -18,11 +18,11 @@ body {
     transform: translateY(0); */
 }
 
-.section-between {
+/* .section-between {
     position: absolute;
     z-index: 1;
     top: 57%;
-}
+} */
 
 .hovereffect {
     width:100%;
