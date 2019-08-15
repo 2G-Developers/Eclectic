@@ -11,10 +11,60 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+			<script type="text/javascript" src="assets/assets/js/animate.txt.js"></script>
+		<link type="text/css" rel="stylesheet" href="assets/assets/css/animate.txt.css" />
+		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
+		<!-- <script type="text/javascript" src="assets/assets/js/respond.min.js"></script> -->
+		<!-- <script type="text/javascript" src="assets/assets/js/modernizr.min.js"></script> -->
+		<!-- <link type="text/css" rel="stylesheet" href="assets/assets/css/styles.min.css" /> -->
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+		
     <title>ECLECTIC</title>
+	<script>
+	$( document ).ready(function() {
+    var $div1 = $("#load");
+    var $div2 = $("#contents");
+    setTimeout(function() {
+	$div1.animate({ 
+   height: 0, 
+   opacity: 0,
+   margin: 0,
+   padding: 0
+}, 'slow', function(){
+   $(this).hide();
+   $div2.show();
+});
+       
+		
+    }, 10000);
+		
+});
+</script>
 </head>
-
+		
 <body>
+ <div id="load" class="section-intro-logo" >
+ <h1>
+ <img class="image-center  img-responsive" height="100em" width="50em" src="./assets/img/symbol.png">
+
+  <a  class="typewrite" data-period="50" data-type='[ "E C L E C T I C " ]'></a>
+  <a  class="typewrite typewrite1" data-period="20" data-type='[ "   Design and Decor" ]'></a>
+  <a  class="typewrite" data-period="20" data-type='[ "" ]'>
+
+
+  
+
+  <br>
+  <!-- <a href="" class="typewrite" data-period="20" data-type='[ "Design and Decor " ]'> -->
+  
+    <span class="wrap"></span>
+  </a>
+</h1>
+ 
+ 
+ </div>
+    <div id="contents" style="display: none;">
     <nav class="navbar fixed-top navbar-light bg-white" style="justify-content: flex-end;">
         
         <div class="collapse mx-auto" id="navbarSupportedContent">
@@ -346,6 +396,7 @@
             }); 
         }); 
     </script>
+	</div>
 </body>
 
 </html>
