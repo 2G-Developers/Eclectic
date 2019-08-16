@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   
     <script type="text/javascript" src="assets/assets/js/animate.txt.js"></script>
     <link type="text/css" rel="stylesheet" href="assets/assets/css/animate.txt.css" />
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
@@ -19,12 +20,13 @@
     <!-- <script type="text/javascript" src="assets/assets/js/modernizr.min.js"></script> -->
     <!-- <link type="text/css" rel="stylesheet" href="assets/assets/css/styles.min.css" /> -->
     <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	 
     <title>ECLECTIC</title>
     <script>
         $(document).ready(function () {
             var $div1 = $("#load");
-            var $div2 = $("#contents");
+            var $div2 = $("#contnav");
             setTimeout(function () {
                 $div1.animate({
                     height: 0,
@@ -35,16 +37,15 @@
                     $(this).hide();
                     $div2.show();
                 });
-
-
             }, 5000);
 
         });
     </script>
+
 </head>
 
 <body>
-    <div id="load" class="section-intro-logo">
+    <div id="load" class="section-intro-logo" style=" z-index:99; height:100%">
         <h1 class="text-center" style="height: 100vh;line-height: 100vh;">
             <img class="img-fluid" height="100em" width="50em" src="./assets/img/symbol.png">
 
@@ -60,8 +61,8 @@
 
 
     </div>
-    <div id="contents" style="display: none;">
-        <nav class="navbar fixed-top navbar-light bg-white" style="justify-content: flex-end;">
+    <div id="contents" >
+        <nav class="navbar fixed-top navbar-light bg-white" id="contnav" style="justify-content: flex-end; display:none">
 
             <div class="collapse mx-auto" id="navbarSupportedContent">
                 <div class="bg-white p-2" style="display: inline-flex;">
@@ -135,7 +136,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="gems-text">
-                            <h1 style="font-weight: bolder;">A B O U T</h1>
+                            <h1 style="font-weight: bolder;" class="wow fadeInLeft">A B O U T</h1>
+								
                         </div>
                     </div>
                 </div>
@@ -279,8 +281,9 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="gems-text">
-                            <h1 style="font-weight: bolder;padding-top: 0px;margin-top: 100px;">T E S T I M O N I A L S
+                            <h1 style="font-weight: bolder;padding-top: 0px;margin-top: 100px;" class="wow fadeInLeft">T E S T I M O N I A L S
                             </h1>
+							
                         </div>
                     </div>
                 </div>
@@ -340,7 +343,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="gems-text">
-                            <h1 style="font-weight: bolder;padding-top: 0px;margin-top: 100px;">C O N T A C T</h1>
+                            <h1 style="font-weight: bolder;padding-top: 0px;margin-top: 100px;" class="wow fadeInLeft">C O N T A C T</h1>
                         </div>
                     </div>
                 </div>
@@ -374,7 +377,7 @@
                 </div>
             </div>
         </section>
-
+		
 
 
 
@@ -402,6 +405,19 @@
             }); 
         </script> -->
     </div>
+	   <script src="assets/assets/js/wow.min.js"></script>
+              <script>
+              $(function(){
+var wow = new WOW({
+animateClass: 'animated',
+offset: 100,
+callback: function(box) {
+console.log(box.tagName);
+}
+});
+   wow.init(); 
+});
+              </script>
 </body>
 
 </html>
