@@ -18,15 +18,29 @@
 <body>
         <nav class="navbar fixed-top navbar-light bg-white" style="justify-content: flex-end;">
         
-                <div class="collapse mx-auto" id="navbarSupportedContent">
+                <!-- <div class="collapse mx-auto" id="navbarSupportedContent">
                     <div class="bg-white p-2" style="display: inline-flex;">
                         <h4 class="text-dark px-2"><a class="text-dark" href="#">ABOUT</a></h4>
                         <h4 class="text-dark px-2"><a class="text-dark" href="#">CONTACT</a></h4>
                         <h4 class="text-dark px-2"><a class="text-dark" href="#">TESTIMONIALS</a></h4>
                     </div>
+                </div> -->
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-dark" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">TESTIMONIALS</a>
+                        </li>
+                    </ul>
                 </div>
                 
-                <button id="hover-toggle" class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button id="hover-toggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </nav>
@@ -144,24 +158,39 @@
     <script src="./assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
 
     <script>
-        $('.owl-carousel').owlCarousel({
-            autoplay: true,
-            autoplayTimeout: 2000,
-            autoplayHoverPause: true,
-            loop: true,
-            margin: 10,
-            items: 3
-            // autoWidth:true,
-        })
-    </script>
-    <script>
-            $(document).ready(function() { 
-                $("#hover-toggle").hover(function() { 
-                    $('#navbarSupportedContent').addClass("show"); 
-                }, function() { 
-                    $('#navbarSupportedContent').removeClass("show"); 
-                }); 
-            }); 
+            $('.owl-carousel').owlCarousel({
+                autoplay: true,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true,
+                lazyLoad: true,
+                loop: true,
+                dots: false,
+                nav: true,
+                margin: 5,
+                stagePadding: 5,
+                responsive: {
+                    0: {
+                        items: 1,
+                        dots: false
+                    },
+                    485: {
+                        items: 2,
+                        dots: false
+                    },
+                    728: {
+                        items: 3,
+                        dots: false
+                    },
+                    960: {
+                        items: 4,
+                        dots: false
+                    },
+                    1200: {
+                        items: 5,
+                        dots: false
+                    }
+                }
+            })
         </script>
 </body>
 

@@ -174,3 +174,26 @@ h3 {
     word-spacing: 0px;
     text-decoration: none solid rgb(34, 34, 34);
 }
+
+.owl-prev {
+    left: 10px;
+}
+.owl-next {
+    right: 10px;
+}
+.owl-prev, .owl-next{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.owl-prev:hover, .owl-prev:active, .owl-prev:focus, .owl-next:hover, .owl-next:active, .owl-next:focus{
+    outline: 0;
+}
+.owl-prev span, .owl-next span {
+    font-size: 60px;
+    color: #4DC7A0;
+    text-shadow: 1px 1px 5px #999;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover { background-color: transparent; }

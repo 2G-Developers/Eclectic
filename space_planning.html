@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    
     <title>SPACE PLANNING</title>
 </head>
 
@@ -26,7 +27,7 @@
                     </div>
                 </div>
                 
-                <button id="hover-toggle" class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button id="hover-toggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </nav>
@@ -149,21 +150,36 @@
             autoplay: true,
             autoplayTimeout: 2000,
             autoplayHoverPause: true,
+            lazyLoad: true,
             loop: true,
-            margin: 10,
-            items: 3
-            // autoWidth:true,
+            dots: false,
+            nav: true,
+            margin: 5,
+            stagePadding: 5,
+            responsive: {
+                0: {
+                    items: 1,
+                    dots: false
+                },
+                485: {
+                    items: 2,
+                    dots: false
+                },
+                728: {
+                    items: 3,
+                    dots: false
+                },
+                960: {
+                    items: 4,
+                    dots: false
+                },
+                1200: {
+                    items: 5,
+                    dots: false
+                }
+            }
         })
     </script>
-    <script>
-            $(document).ready(function() { 
-                $("#hover-toggle").hover(function() { 
-                    $('#navbarSupportedContent').addClass("show"); 
-                }, function() { 
-                    $('#navbarSupportedContent').removeClass("show"); 
-                }); 
-            }); 
-        </script>
 </body>
 
 </html>
