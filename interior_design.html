@@ -12,6 +12,24 @@
     <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+            var position = $(window).scrollTop(); 
+            
+            // should start at 0
+            
+            $(window).scroll(function() {
+                var scroll = $(window).scrollTop();
+                if(scroll > position) {
+                    console.log('scrollDown');
+                    $("#contnav").hide();
+                    
+                } else {
+                     console.log('scrollUp');
+                    $("#contnav").show();
+                }
+                position = scroll;
+            });
+                </script>
     
     <title>INTERIOR DESIGN</title>
 </head>

@@ -14,6 +14,24 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     
     <title>SPACE PLANNING</title>
+    <script>
+            var position = $(window).scrollTop(); 
+            
+            // should start at 0
+            
+            $(window).scroll(function() {
+                var scroll = $(window).scrollTop();
+                if(scroll > position) {
+                    console.log('scrollDown');
+                    $("#contnav").hide();
+                    
+                } else {
+                     console.log('scrollUp');
+                    $("#contnav").show();
+                }
+                position = scroll;
+            });
+                </script>
 </head>
 
 <body>
