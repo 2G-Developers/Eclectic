@@ -24,7 +24,21 @@
 	 
     <title>ECLECTIC</title>
     <script>
+	
         $(document).ready(function () {
+		variable=0;
+	 if ( window.performance.navigation.type == window.performance.navigation.TYPE_BACK_FORWARD) {
+	 
+       variable=1;
+	    var $div1 = $("#load");
+            var $div2 = $("#contnav");
+			$div1.hide();
+                    $div2.show();
+    }
+     // do something 
+
+if(variable===0)
+{
             var $div1 = $("#load");
             var $div2 = $("#contnav");
             setTimeout(function () {
@@ -37,8 +51,11 @@
                     $(this).hide();
                     $div2.show();
                 });
-            }, 5000);
 
+            }, 5000);
+			variable=variable+1;
+			console.log(variable)
+}
         });
     </script>
 	<script>
