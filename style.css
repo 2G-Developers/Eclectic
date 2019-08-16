@@ -99,7 +99,7 @@ body {
 
 .section-hero .logo {
     position: relative;
-    top: 50%;
+    /* top: 50%; */
     /* -webkit-transform: skewY(3deg);
     -moz-transform: skewY(3deg);
     -ms-transform: skewY(3deg);
