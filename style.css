@@ -24,69 +24,7 @@ body {
     top: 57%;
 } */
 
-.hovereffect {
-    width:100%;
-    height:100%;
-    float:left;
-    overflow:hidden;
-    position:relative;
-    text-align:center;
-    cursor:default;
-}
 
-.hovereffect .overlay {
-    width:100%;
-    height:100%;
-    position:absolute;
-    overflow:hidden;
-    top:0;
-    left:0;
-    opacity:0;
-    background-color:rgba(0,0,0,0.3);
-    -webkit-transition:all .5s ease-in-out;
-    transition:all .5s ease-in-out
-}
-
-.hovereffect img {
-    display:block;
-    position:relative;
-    -webkit-transition:all .5s linear;
-    transition:all .5s linear;
-}
-
-.hovereffect h2 {
-    text-transform:uppercase;
-    color:#fff;
-    text-align:center;
-    position:relative;
-    font-size:17px;
-    background:rgba(0,0,0,0.6);
-    -webkit-transform:translatey(-100px);
-    -ms-transform:translatey(-100px);
-    transform:translatey(-100px);
-    -webkit-transition:all .2s ease-in-out;
-    transition:all .2s ease-in-out;
-    padding:10px;
-}
-
-.hovereffect:hover img {
-    -ms-transform:scale(1.2);
-    -webkit-transform:scale(1.2);
-    transform:scale(1.2);
-}
-
-.hovereffect:hover .overlay {
-    opacity:1;
-    filter:alpha(opacity=100);
-}
-
-.hovereffect:hover h2,.hovereffect:hover {
-    opacity:1;
-    filter:alpha(opacity=100);
-    -ms-transform:translatey(0);
-    -webkit-transform:translatey(0);
-    transform:translatey(0);
-}
 
 .div-center {
     margin-top: 100px;
@@ -175,6 +113,10 @@ h3 {
     text-decoration: none solid rgb(34, 34, 34);
 }
 
+li a {
+    font-weight: bolder;
+}
+
 .owl-prev {
     left: 10px;
 }
@@ -193,10 +135,115 @@ h3 {
 }
 .owl-prev span, .owl-next span {
     font-size: 60px;
-    color: #4DC7A0;
+    color: #000;
     text-shadow: 1px 1px 5px #999;
 }
 .owl-theme .owl-nav [class*="owl-"]:hover { background-color: transparent; }
 
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+button:focus {outline:0;}
+
+.custom-toggler.navbar-toggler {
+    border-color: #FFF;
+  } 
+
+/* Media Query */
+@media (max-width: 767px) {
+    .hovereffect .overlay {
+        position: absolute;
+        top: 70%;
+        z-index: 1;
+        background: rgba(0,0,0,0.6);
+        display: block;
+        width: 100%;
+    }
+
+    .hovereffect h2 {
+        color: #FFF;
+    }
+}
 
 
+@media (min-width: 768px) {
+    #hover-toggle{
+        position: absolute;
+        top: 3px;
+    }
+    .navbar-nav {
+        justify-content: center;
+        flex-direction: row;
+    }
+    .navbar-nav li {
+        padding: 0 20px 0 20px;
+    }
+    #nav-img {
+        display: none;
+    }
+
+    .hovereffect {
+        width:100%;
+        height:100%;
+        float:left;
+        overflow:hidden;
+        position:relative;
+        text-align:center;
+        cursor:default;
+    }
+    
+    .hovereffect .overlay {
+        width:100%;
+        height:100%;
+        position:absolute;
+        overflow:hidden;
+        top:0;
+        left:0;
+        opacity:0;
+        background-color:rgba(0,0,0,0.3);
+        -webkit-transition:all .5s ease-in-out;
+        transition:all .5s ease-in-out
+    }
+    
+    .hovereffect img {
+        display:block;
+        position:relative;
+        -webkit-transition:all .5s linear;
+        transition:all .5s linear;
+    }
+    
+    .hovereffect h2 {
+        text-transform:uppercase;
+        color:#fff;
+        text-align:center;
+        position:relative;
+        font-size:17px;
+        background:rgba(0,0,0,0.6);
+        -webkit-transform:translatey(-100px);
+        -ms-transform:translatey(-100px);
+        transform:translatey(-100px);
+        -webkit-transition:all .2s ease-in-out;
+        transition:all .2s ease-in-out;
+        padding:10px;
+    }
+    
+    .hovereffect:hover img {
+        -ms-transform:scale(1.2);
+        -webkit-transform:scale(1.2);
+        transform:scale(1.2);
+    }
+    
+    .hovereffect:hover .overlay {
+        opacity:1;
+        filter:alpha(opacity=100);
+    }
+    
+    .hovereffect:hover h2,.hovereffect:hover {
+        opacity:1;
+        filter:alpha(opacity=100);
+        -ms-transform:translatey(0);
+        -webkit-transform:translatey(0);
+        transform:translatey(0);
+    }
+  }
