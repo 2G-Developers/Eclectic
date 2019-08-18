@@ -19,12 +19,26 @@
     <!-- <script type="text/javascript" src="assets/assets/js/respond.min.js"></script> -->
     <!-- <script type="text/javascript" src="assets/assets/js/modernizr.min.js"></script> -->
     <!-- <link type="text/css" rel="stylesheet" href="assets/assets/css/styles.min.css" /> -->
-    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 	 
     <title>ECLECTIC</title>
-    <script>
+<script>
+	
         $(document).ready(function () {
+		variable=0;
+	 if ( window.performance.navigation.type == window.performance.navigation.TYPE_BACK_FORWARD) {
+	 
+       variable=1;
+	    var $div1 = $("#load");
+            var $div2 = $("#contnav");
+			$div1.hide();
+                    $div2.show();
+    }
+     // do something 
+
+if(variable===0)
+{
             var $div1 = $("#load");
             var $div2 = $("#contnav");
             setTimeout(function () {
@@ -37,8 +51,11 @@
                     $(this).hide();
                     $div2.show();
                 });
-            }, 5000);
 
+            }, 5000);
+			variable=variable+1;
+			console.log(variable)
+}
         });
     </script>
 	<script>
