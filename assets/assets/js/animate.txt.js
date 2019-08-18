@@ -52,7 +52,8 @@ var TxtType = function(el, toRotate, period) {
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.0em solid #fff;font-family: Pacifico; font-size: 0.5em;}";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.0em solid #fff;font-family: MyWebFont; font-size: 0.8em;}";
         document.body.appendChild(css);
-    };  
+    };    
+ 
 
