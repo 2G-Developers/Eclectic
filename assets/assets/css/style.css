@@ -154,7 +154,7 @@ button:focus {outline:0;}
 @media (max-width: 767px) {
     .hovereffect .overlay {
         position: absolute;
-        top: 70%;
+        top: 0;
         z-index: 1;
         background: rgba(0,0,0,0.6);
         display: block;
