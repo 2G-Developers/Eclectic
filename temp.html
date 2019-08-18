@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="assets/assets/js/animate.txt.js"></script>
+    <link type="text/css" rel="stylesheet" href="assets/assets/css/animate.txt.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
+    <!-- <script type="text/javascript" src="assets/assets/js/respond.min.js"></script> -->
+    <!-- <script type="text/javascript" src="assets/assets/js/modernizr.min.js"></script> -->
+    <!-- <link type="text/css" rel="stylesheet" href="assets/assets/css/styles.min.css" /> -->
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <title>ECLECTIC</title>
+    <script>
+
+        $(document).ready(function () {
+            variable = 0;
+            if (window.performance.navigation.type == window.performance.navigation.TYPE_BACK_FORWARD) {
+
+                variable = 1;
+                var $div1 = $("#load");
+                var $div2 = $("#contnav");
+                $div1.hide();
+                $div2.show();
+            }
+            // do something 
+
+            if (variable === 0) {
+                var $div1 = $("#load");
+                var $div2 = $("#contnav");
+                setTimeout(function () {
+                    $div1.animate({
+                        height: 0,
+                        opacity: 0,
+                        margin: 0,
+                        padding: 0
+                    }, 'slow', function () {
+                        $(this).hide();
+                        $div2.show();
+                    });
+
+                }, 5000);
+                variable = variable + 1;
+                console.log(variable)
+            }
+        });
+    </script>
+    <script>
+        var position = $(window).scrollTop();
+
+        // should start at 0
+
+        $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+            if (scroll > position) {
+                console.log('scrollDown');
+                $("#contnav").hide();
+
+            } else {
+                console.log('scrollUp');
+                $("#contnav").show();
+            }
+            position = scroll;
+        });
+    </script>
+    <style>
+        @font-face {
+            font-family: 'MyWebFont';
+            src: url('beyond.ttf') format('truetype');
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="load" class="section-intro-logo" style=" z-index:99; height:100%">
+        <h1 class="text-center animated infinite jello" style="height: 100vh;line-height: 100vh;">
+            <img class="logo img-fluid" src="assets/img/Eclectic png Logo.png" alt="logo">
+            <!-- <a class="typewrite" data-period="50" data-type='[ " E clectic design and decor" ]'></a> -->
+            <!-- <a class="typewrite typewrite1" data-period="20" data-type='[ "   Design and Decor" ]' style="font-size: 3rem;"></a>
+            <a class="typewrite" data-period="20" data-type='[ "" ]' style="font-size: 3rem;"> -->
+
+            <!-- <a href="" class="typewrite" data-period="20" data-type='[ "Design and Decor " ]'> -->
+
+            <span class="wrap"></span>
+            </a>
+        </h1>
+
+
+
+    </div>
+    <div id="contents">
+        <nav class="navbar fixed-top navbar-light bg-white" id="contnav"
+            style="justify-content: flex-end;display: none;">
+
+            <!-- <div class="collapse mx-auto" id="navbarSupportedContent">
+                        <div class="bg-white p-2" style="display: inline-flex;">
+                            <h4 class="text-dark px-2"><a class="text-dark" href="#">ABOUT</a></h4>
+                            <h4 class="text-dark px-2"><a class="text-dark" href="#">CONTACT</a></h4>
+                            <h4 class="text-dark px-2"><a class="text-dark" href="#">TESTIMONIALS</a></h4>
+                        </div>
+                    </div> -->
+
+            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-dark" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">TESTIMONIALS</a>
+                    </li>
+                    <li class="nav-item" id="nav-img">
+                        <a href="" class="nav-link text-dark">
+                            <img width="220" height="120" src="assets/img/Eclectic png Logo.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <button id="hover-toggle" class="custom-toggler navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="custom-toggler navbar-toggler-icon"></span>
+            </button>
+        </nav>
+
+        <section class="section-hero text-center" style="margin-top: 50px;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12" style="margin-bottom:50px;">
+                        <img class="logo img-fluid" width="220" height="57" src="assets/img/Eclectic png Logo.png"
+                            alt="">
+                    </div>
+                </div>
+                <div class="row section-between">
+                    <div class="col-sm-4 col-md-3 p-0 hovereffect">
+                        <a href="./space_planning.html">
+                            <img class="img-fluid loaded" src="./assets/img/1 space planning.jpg">
+                            <div class="overlay">
+                                <h2>Space Planning</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-3 p-0 hovereffect">
+                        <a href="./Visualization.html">
+                            <img class="img-fluid loaded" src="./assets/img/2 visualization.jpg">
+                            <div class="overlay">
+                                <h2>3D Visualization</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-3 p-0 hovereffect">
+                        <a href="./interior_design.html">
+                            <img class="img-fluid loaded" src="./assets/img/3 Interior design.jpeg">
+                            <div class="overlay">
+                                <h2>Interior Design</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- <div class="col-sm-4 col-md-3 p-0 hovereffect">
+                        <a href="./furniture.html">
+                            <img class="img-thumbnail loaded" src="./assets/img/4 furniture.jpg">
+                            <div class="overlay">
+                                <h2>Furniture</h2>
+                            </div>
+                        </a>
+                    </div> -->
+                    <div class="col-sm-4 col-md-3 p-0 hovereffect">
+                        <a href="./home_automation.html">
+                            <img class="img-fluid loaded" src="./assets/img/5 Home Automation.jpg"
+                                style="width: 370px;height: 260px;">
+                            <div class="overlay">
+                                <h2>Home Automation</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section-gems text-center">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="gems-text">
+                            <h1 style="font-weight: bolder;" class="wow fadeInLeft">A B O U T</h1>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="padding-top: 100px; padding-bottom: 10px;">
+                    <div class="col-md-3">
+                        <div class="gem-icon">
+                            <svg class="gem__icon-leaf" xmlns="http://www.w3.org/2000/svg" width="80" height="54"
+                                viewBox="0 0 79.4 53.9">
+                                <g fill="none" stroke="#1D1D1F" stroke-width="3" stroke-miterlimit="10">
+                                    <polyline class="leaf-left"
+                                        points="40.7,3.5 29.2,14.7 34.2,19.2 24.2,28.9 39.7,42.8">
+                                    </polyline>
+                                    <polyline class="leaf-right"
+                                        points="38.7,43.9 55.2,28.9 45.1,19.2 50.2,14.7 39.7,4.6">
+                                    </polyline>
+                                    <line class="stem-right" x1="39.7" y1="32.8" x2="45.2" y2="27.9"></line>
+                                    <line class="stem-left" x1="39.7" y1="32.8" x2="34.1" y2="27.9"></line>
+                                    <line class="stem" x1="39.7" y1="22.8" x2="39.7" y2="50.8"></line>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="gem-text">
+                            <p>Space Planning</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="gem-icon">
+                            <svg class="gem__icon-waves" xmlns="http://www.w3.org/2000/svg" width="80" height="54"
+                                viewBox="0 0 79.4 53.9">
+                                <g fill="none" stroke="#1D1D1F" stroke-width="3" stroke-linejoin="bevel"
+                                    stroke-miterlimit="10">
+                                    <path class="wave-1"
+                                        d="M19.2,18.1c8.8,0,10.2-7.8,10.2-7.8c0,0,1.4,7.8,10.2,7.8s10.2-7.8,10.2-7.8s1.4,7.8,10.2,7.8">
+                                    </path>
+                                    <path class="wave-2"
+                                        d="M19.2,31.1c8.8,0,10.2-7.8,10.2-7.8c0,0,1.4,7.8,10.2,7.8s10.2-7.8,10.2-7.8s1.4,7.8,10.2,7.8">
+                                    </path>
+                                    <path class="wave-3"
+                                        d="M19.2,44.1c8.8,0,10.2-7.8,10.2-7.8c0,0,1.4,7.8,10.2,7.8s10.2-7.8,10.2-7.8s1.4,7.8,10.2,7.8">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="gem-text">
+                            <p>3D Visualization</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="gem-icon">
+                            <svg class="gem__icon-wind" xmlns="http://www.w3.org/2000/svg" width="80" height="54"
+                                viewBox="0 0 79.4 53.9">
+                                <g fill="none" stroke="#1D1D1F" stroke-width="3" stroke-miterlimit="10">
+                                    <path class="wind-1"
+                                        d="M57.6,24.3c-0.6-1.2-1-2.6-1-4.1c0-5,4-9,9-9c5,0,9,4,9,9s-4,9-9,9l-61.1,0">
+                                    </path>
+                                    <path class="wind-2"
+                                        d="M42.2,17.4c0-2.7,2.2-4.9,4.9-4.9c2.7,0,4.9,2.2,4.9,4.9s-2.2,4.9-4.9,4.9H9.6">
+                                    </path>
+                                    <path class="wind-3"
+                                        d="M57.9,41.3c0.6,1.2,1.7,2,3.1,2c1.9,0,3.5-1.6,3.5-3.5s-1.6-3.5-3.5-3.5l-46.4,0">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="gem-text">
+                            <p>Interior Design</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="gem-icon">
+                            <svg class="gem__icon-mountain" xmlns="http://www.w3.org/2000/svg" width="80" height="54"
+                                viewBox="0 0 79.4 53.9">
+                                <g fill="none" stroke="#1D1D1F" stroke-width="3" stroke-miterlimit="10">
+                                    <polygon class="mountain-small" points="32.3,46.5 4.7,46.5 18.5,28.1 32.3,46.5	">
+                                    </polygon>
+                                    <polygon class="mountain-big" fill="#ffffff"
+                                        points="17,46.5 45.8,7.8 74.7,46.5 17,46.5"></polygon>
+                                    <polyline class="mountain-snow"
+                                        points="36.7,21.8  40.8,26 45.9,20.9 54.2,29.1 59,24.3 "></polyline>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="gem-text">
+                            <p>Home Automation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row"
+                    style="padding-top: 40px; padding-bottom: 40px;padding-left: 20px;padding-right: 20px;">
+                    <div class="col-md-6 col-lg-8">
+                        <div class="gem-heading">
+                            <h3>
+                                Hello, I’m Vignesh, Designer and Founder, Eclectic Design
+                                &amp; Decor. We create designs with Knowledge and Passion.
+                                We are an young team who believe in the ability of Art,
+                                Architecture and Design thinking to effect good in the
+                                world.
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="gem-copytext">
+                            <h4>What is Eclectic?</h4>
+                            “Methods, beliefs, ideas, etc. that seems the best or most useful derived from a broad and
+                            diverse range of systems, rather than following a single system.”
+                        </div>
+                        <div class="gem-copytext">
+                            <h4>Approach</h4>
+                            At eclectic we strive to gain perspective on all of the different ways, to finally find the
+                            one design that meets our objective. We design spaces by keeping in mind of the customer’s
+                            space, their purpose, and their lifestyle. As every customer is a part of our team we
+                            understand that every one of them is unique and so are their needs. This thorough research
+                            and understanding, allows us to get to the pinnacle of their dream for a comfortable space.
+                        </div>
+                        <div class="gem-copytext">
+                            <h4>Vision</h4>
+                            “Design décor and thoughts for Functional and Artistic spaces.”
+                            Our projects are thoughtfully designed to make the product not for the product but for the
+                            result, for the profit of human being. Our main source of inspiration always remains the
+                            wellness of the world.
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section-gems text-center p-0">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="gems-text">
+                            <h1 style="font-weight: bolder;padding-top: 0px;margin-top: 100px;" class="wow fadeInLeft">T
+                                E S T I M O N I A L S
+                            </h1>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="owl-carousel owl-theme">
+                            <div class="item col-sm-6 col-lg-3 p-2">
+                                    <div class="card" style="height:100%;">
+                                        <div class="card-body" style="background-color:#F3F3F3;">
+                                            <h5>99</h5>
+                                            <h4 style="font-size:1em;">I made my home interior with
+                                                    Eclectic. Their work ethics are commendable. Also, the team's energy is
+                                                    infectious! They get the work done right on schedule.
+            
+                                            </h4>
+                                            <h5>66</h5>
+                                            <b>--Ms.Sujatha D'cruz</b>
+                                        </div>
+                                        <!-- <div class="card-footer h-100"></div> -->
+                                    </div>
+                                </div>
+                                <div class="item col-sm-6 col-lg-3 p-2">
+                                    <div class="card" style="height:100%;">
+                                        <div class="card-body" style="background-color:#F3F3F3;">
+                                            <h5>99</h5>
+                                            <h4 style="font-size:1em;">I had started the flooring work
+                                                    before Mr. Vignesh was appointed as the designer for my home. Since i
+                                                    wanted professional expertise i sort after his help. I was impressed
+                                                    with his approach and his suggestions for my home, keeping in mind the
+                                                    rest of the work that was already completed. I loved his energy and the
+                                                    output has come out really well.
+            
+                                            </h4>
+                                            <h5>66</h5>
+                                            <b>-Mr.L.Dhayanidhi</b>
+                                        </div>
+                                        <!-- <div class="card-footer h-100"></div> -->
+                                    </div>
+                                </div>
+                                <div class="item col-sm-6 col-lg-3 p-2">
+                                    <div class="card" style="height:100%;">
+                                        <div class="card-body" style="background-color:#F3F3F3;">
+                                            <h5>99</h5>
+                                            <h4 style="font-size:1em;">I am a contractor. I came to know them through one of my friends from the same field. I wanted elevation design and interior also for my construction.  They gave a good output design.
+            
+                                            </h4>
+                                            <h5>66</h5>
+                                            <b>--Mr. Manikandan</b>
+                                        </div>
+                                        <!-- <div class="card-footer h-100"></div> -->
+                                    </div>
+                                </div>
+                                <div class="item col-sm-6 col-lg-3 p-2">
+                                    <div class="card" style="height:100%;">
+                                        <div class="card-body" style="background-color:#F3F3F3;">
+                                            <h5>99</h5>
+                                            <h4 style="font-size:1em;">Good vaasthu consultant.  Vaasthu changes were done for my home and  remedies for that also was suggested.  Good.
+            
+                                            </h4>
+                                            <h5>66</h5>
+                                            <b>--Mrs. Saraswathi Radhakrishnan.</b>
+                                        </div>
+                                        <!-- <div class="card-footer h-100"></div> -->
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-hero text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="gems-text">
+                            <h1 style="font-weight: bolder;padding-top: 0px;margin-top: 100px;" class="wow fadeInLeft">C
+                                O N T A C T</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row py-5">
+                    <div class="col-md-12">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+
+                                    <input type="text" class="form-control" id="inputName" placeholder="Enter Your Name"
+                                        required>
+                                </div>
+
+                                <div class="form-group col-md-3">
+
+                                    <input type="tel" class="form-control" id="inputphone"
+                                        placeholder="Enter Your Phone" required>
+                                </div>
+
+                                <div class="form-group col-md-3">
+
+                                    <input type="email" class="form-control" id="inputEmail4"
+                                        placeholder="Enter Your Email" required>
+                                </div>
+
+                                <div class="form-group col-md-3">
+
+                                    <input type="text" class="form-control" id="inputMessage"
+                                        placeholder="Enter Your Message" required>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-outline-dark">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script src="./assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+        <!-- <script>
+            $(document).ready(function () {
+                $("#hover-toggle").hover(function () {
+                    $('#navbarSupportedContent').addClass("show");
+                }, function () {
+                    $('#navbarSupportedContent').removeClass("show");
+                });
+            }); 
+        </script> -->
+    </div>
+    <script src="assets/assets/js/wow.min.js"></script>
+    <script>
+        $(function () {
+            var wow = new WOW({
+                animateClass: 'animated',
+                offset: 100,
+                callback: function (box) {
+                    console.log(box.tagName);
+                }
+            });
+            wow.init();
+        });
+    </script>
+    <script>
+        function resize() {
+            if ($(window).width() < 514) {
+                $('html').addClass('mobile');
+            }
+            else { $('html').removeClass('mobile'); }
+        }
+
+        $(document).ready(function () {
+            $(window).resize(resize);
+            resize();
+        });
+    </script>
+    <script>
+            $('.owl-carousel').owlCarousel({
+                autoplay: false,
+                // autoplayTimeout: 2000,
+                autoplayHoverPause: true,
+                stagePadding: 0,
+                lazyLoad: true,
+                items: 4,
+                margin: 5,
+                loop: false,
+                // autoWidth:true,
+                dots: false,
+                nav: false,
+                responsive: {
+                    0: {
+                        items: 2,
+                        autoplay: true,
+                        dots: false
+                    },
+                    485: {
+                        items: 2,
+                        autoplay: true,
+                        dots: false
+                    },
+                    728: {
+                        items: 3,
+                        autoplay: true,
+                        dots: false
+                    },
+                    960: {
+                        items: 4,
+                        autoplay: false,
+                        dots: false
+                    },
+                    1200: {
+                        items: 4,
+                        autoplay: false,
+                        dots: false
+                    }
+                }
+            })
+        </script>
+</body>
+
+</html>
