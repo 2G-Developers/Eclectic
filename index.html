@@ -69,13 +69,13 @@
             var scroll = $(window).scrollTop();
             if (scroll > position) {
                 console.log('scrollDown');
-				$("#navbarSupportedContent").removeClass('show');
+                $("#navbarSupportedContent").removeClass('show');
                 $("#contnav").hide();
 
             } else {
                 console.log('scrollUp');
                 $("#contnav").show();
-				
+
             }
             position = scroll;
         });
@@ -115,16 +115,16 @@
             <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link text-dark" href="#">ABOUT</a>
+                        <a class="nav-link text-dark" href="#about">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">CONTACT</a>
+                        <a class="nav-link text-dark" href="#contact">CONTACT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">TESTIMONIALS</a>
+                        <a class="nav-link text-dark" href="#testimonials">TESTIMONIALS</a>
                     </li>
                     <li class="nav-item" id="nav-img">
-                        <a href="" class="nav-link text-dark">
+                        <a href="./index.html" class="nav-link text-dark">
                             <img width="220" height="auto" src="assets/img/logo landscape eclectic.png" alt="">
                         </a>
                     </li>
@@ -142,8 +142,7 @@
             <div class="container-fluid" style="padding-right: 0; padding-bottom: 40px;">
                 <div class="row">
                     <div class="col-md-12" style="margin-bottom:50px;">
-                        <img class="logo" width="300" height="auto" src="assets/img/logo landscape eclectic.png"
-                            alt="">
+                        <img class="logo" width="300" height="auto" src="assets/img/logo landscape eclectic.png" alt="">
                     </div>
                 </div>
                 <div class="row section-between">
@@ -181,8 +180,7 @@
                     </div> -->
                     <div class="col-sm-4 col-md-3 p-0 hovereffect">
                         <a href="./home_automation.html">
-                            <img class="img-fluid loaded" src="./assets/img/5 Home Automation.jpg"
-                              >
+                            <img class="img-fluid loaded" src="./assets/img/5 Home Automation.jpg">
                             <div class="overlay">
                                 <h2>Home Automation</h2>
                             </div>
@@ -190,11 +188,11 @@
                     </div>
                 </div>
             </div>
-            <button type="submit" class="btn btn-outline-dark">Book Site Visit</button>
+            <a id="visit" href="#contact" class="btn btn-outline-dark">Book Site Visit</a>
         </section>
 
 
-        <section class="section-gems text-center">
+        <section id="about" class="section-gems text-center">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
@@ -211,9 +209,9 @@
                         <div class="gem-heading">
                             <h3>
                                 Hello, I’m Vignesh, Designer and Founder, Eclectic Design
-&amp; Decor. We create designs with Knowledge and Passion.
-We believe in the ability of Art, Architecture and Design
-thinking to effect good in the world.
+                                &amp; Decor. We create designs with Knowledge and Passion.
+                                We believe in the ability of Art, Architecture and Design
+                                thinking to effect good in the world.
                             </h3>
                         </div>
                     </div>
@@ -226,23 +224,24 @@ thinking to effect good in the world.
                         <div class="gem-copytext">
                             <h4 class="pt-2 audrey">Our Approach</h4>
                             At eclectic we strive to gain perspective on all of the different ways, to
-finally find the one design that meets our objective. We believe that no two
-projects are same and one client’s space differs to a great extent with
-another’s, in terms of details and overall design. Our first step is to sit down
-with you and discuss in detail their specific requirements and vision for the
-space. This process not only helps you realize what you want but also
-helps us in bringing your imagination into reality. It provides you a clear
-vision and opportunity to get accurate and realistic information regarding
-the project because the clearer the vision, better the results. This thorough
-research and understanding, allows us to get to the pinnacle of their dream
-for a comfortable space.
+                            finally find the one design that meets our objective. We believe that no two
+                            projects are same and one client’s space differs to a great extent with
+                            another’s, in terms of details and overall design. Our first step is to sit down
+                            with you and discuss in detail their specific requirements and vision for the
+                            space. This process not only helps you realize what you want but also
+                            helps us in bringing your imagination into reality. It provides you a clear
+                            vision and opportunity to get accurate and realistic information regarding
+                            the project because the clearer the vision, better the results. This thorough
+                            research and understanding, allows us to get to the pinnacle of their dream
+                            for a comfortable space.
                         </div>
                         <div class="gem-copytext">
                             <h4 class="pt-2 audrey">Our Vision</h4>
-                            <p class="pb-2 m-0" style="font-weight: 600;">“Design décor and thoughts for Functional and Artistic spaces.”</p>
-Our projects are thoughtfully designed to make the product not for the
-product but for the result, for the profit of human being. Our main source of
-inspiration always remains the wellness of the world.
+                            <p class="pb-2 m-0" style="font-weight: 600;">“Design décor and thoughts for Functional
+                                and Artistic spaces.”</p>
+                            Our projects are thoughtfully designed to make the product not for the
+                            product but for the result, for the profit of human being. Our main source of
+                            inspiration always remains the wellness of the world.
                         </div>
                     </div>
 
@@ -335,7 +334,7 @@ inspiration always remains the wellness of the world.
 
         </section>
 
-        <section class="section-gems text-center p-0">
+        <section id="testimonials" class="section-gems text-center p-0">
             <div class="container-fluid">
                 <div class="row" style="padding-bottom: 40px;">
                     <div class="col-md-12">
@@ -349,71 +348,74 @@ inspiration always remains the wellness of the world.
                 </div>
                 <div class="row">
                     <div class="owl-carousel owl-theme">
-                            <div class="item" style="height: 440px;">
-                                    <div class="card" style="height:100%;">
-                                        <div class="card-body" style="background-color:#FFF;padding-top: 110px;">
-                                            <h5 style="font-size: 16px;font-weight: 700;">99</h5>
-                                            <h4 style="font-size:1.3em;">I made my home interior with
-                                                    Eclectic. Their work ethics are commendable. Also, the team's energy is
-                                                    infectious! They get the work done right on schedule.
+                        <div class="item" style="height: 440px;">
+                            <div class="card" style="height:100%;">
+                                <div class="card-body" style="background-color:#FFF;padding-top: 110px;">
+                                    <h5 style="font-size: 16px;font-weight: 700;">99</h5>
+                                    <h4 style="font-size:1.3em;">I made my home interior with
+                                        Eclectic. Their work ethics are commendable. Also, the team's energy is
+                                        infectious! They get the work done right on schedule.
 
-                                            </h4>
-                                            <h5 style="font-size: 16px;font-weight: 700;">66</h5>
-                                            <b>-Ms.Sujatha D'cruz</b>
-                                        </div>
-                                        <!-- <div class="card-footer h-100"></div> -->
-                                    </div>
+                                    </h4>
+                                    <h5 style="font-size: 16px;font-weight: 700;">66</h5>
+                                    <b>-Ms.Sujatha D'cruz</b>
                                 </div>
-                                <div class="item" style="height: 440px;">
-                                    <div class="card" style="height:100%;">
-                                        <div class="card-body" style="background-color:#FFF;padding-top: 50px;">
-                                            <h5 style="font-size: 16px;font-weight: 700;">99</h5>
-                                            <h4 style="font-size:1.3em;">I had started the flooring work
-                                                    before Mr. Vignesh was appointed as the designer for my home. Since i
-                                                    wanted professional expertise i sort after his help. I was impressed
-                                                    with his approach and his suggestions for my home, keeping in mind the
-                                                    rest of the work that was already completed. I loved his energy and the
-                                                    output has come out really well.
+                                <!-- <div class="card-footer h-100"></div> -->
+                            </div>
+                        </div>
+                        <div class="item" style="height: 440px;">
+                            <div class="card" style="height:100%;">
+                                <div class="card-body" style="background-color:#FFF;padding-top: 50px;">
+                                    <h5 style="font-size: 16px;font-weight: 700;">99</h5>
+                                    <h4 style="font-size:1.3em;">I had started the flooring work
+                                        before Mr. Vignesh was appointed as the designer for my home. Since i
+                                        wanted professional expertise i sort after his help. I was impressed
+                                        with his approach and his suggestions for my home, keeping in mind the
+                                        rest of the work that was already completed. I loved his energy and the
+                                        output has come out really well.
 
-                                            </h4>
-                                            <h5 style="font-size: 16px;font-weight: 700;">66</h5>
-                                            <b>-Mr.L.Dhayanidhi</b>
-                                        </div>
-                                        <!-- <div class="card-footer h-100"></div> -->
-                                    </div>
+                                    </h4>
+                                    <h5 style="font-size: 16px;font-weight: 700;">66</h5>
+                                    <b>-Mr.L.Dhayanidhi</b>
                                 </div>
-                                <div class="item" style="height: 440px;">
-                                    <div class="card" style="height:100%;">
-                                        <div class="card-body" style="background-color:#FFF;padding-top: 100px;">
-                                            <h5 style="font-size: 16px;font-weight: 700;">99</h5>
-                                            <h4 style="font-size:1.3em;">I am a contractor. I came to know them through one of my friends from the same field. I wanted elevation design and interior also for my construction.  They gave a good output design.
+                                <!-- <div class="card-footer h-100"></div> -->
+                            </div>
+                        </div>
+                        <div class="item" style="height: 440px;">
+                            <div class="card" style="height:100%;">
+                                <div class="card-body" style="background-color:#FFF;padding-top: 100px;">
+                                    <h5 style="font-size: 16px;font-weight: 700;">99</h5>
+                                    <h4 style="font-size:1.3em;">I am a contractor. I came to know them through one of
+                                        my friends from the same field. I wanted elevation design and interior also for
+                                        my construction. They gave a good output design.
 
-                                            </h4>
-                                            <h5 style="font-size: 16px;font-weight: 700;">66</h5>
-                                            <b>-Mr. Manikandan</b>
-                                        </div>
-                                        <!-- <div class="card-footer h-100"></div> -->
-                                    </div>
+                                    </h4>
+                                    <h5 style="font-size: 16px;font-weight: 700;">66</h5>
+                                    <b>-Mr. Manikandan</b>
                                 </div>
-                                <div class="item" style="height: 440px;">
-                                    <div class="card" style="height:100%;">
-                                        <div class="card-body" style="background-color:#FFF;padding-top: 120px;">
-                                            <h5 style="font-size: 16px;font-weight: 700;">99</h5>
-                                            <h4 style="font-size:1.3em;">Good vaasthu suggestions.  Vaasthu changes were done for my home and  remedies for that also was suggested.  Good.
+                                <!-- <div class="card-footer h-100"></div> -->
+                            </div>
+                        </div>
+                        <div class="item" style="height: 440px;">
+                            <div class="card" style="height:100%;">
+                                <div class="card-body" style="background-color:#FFF;padding-top: 120px;">
+                                    <h5 style="font-size: 16px;font-weight: 700;">99</h5>
+                                    <h4 style="font-size:1.3em;">Good vaasthu suggestions. Vaasthu changes were done for
+                                        my home and remedies for that also was suggested. Good.
 
-                                            </h4>
-                                            <h5 style="font-size: 16px;font-weight: 700;">66</h5>
-                                            <b>-Mrs. Saraswathi Radhakrishnan.</b>
-                                        </div>
-                                        <!-- <div class="card-footer h-100"></div> -->
-                                    </div>
+                                    </h4>
+                                    <h5 style="font-size: 16px;font-weight: 700;">66</h5>
+                                    <b>-Mrs. Saraswathi Radhakrishnan.</b>
                                 </div>
+                                <!-- <div class="card-footer h-100"></div> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section-hero text-center">
+        <section id="contact" class="section-hero text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -459,10 +461,12 @@ inspiration always remains the wellness of the world.
                 <div class="row p-1" style="margin-bottom: 50px;">
                     <div class="text-center col-12">
                         <div id="contact-mail">
-                            <i class="fas fa-envelope"></i><a href="mailto:eclecticdesigndecor@gmail.com" style="font-size: 1.1rem;padding-left: 10px;text-decoration: none;color: black;">eclecticdesigndecor@gmail.com</a>
+                            <i class="fas fa-envelope"></i><a href="mailto:eclecticdesigndecor@gmail.com"
+                                style="font-size: 1.1rem;padding-left: 10px;text-decoration: none;color: black;">eclecticdesigndecor@gmail.com</a>
                         </div>
                         <div id="contact-phone" style="font-size: 0.9rem;margin-top: 10px;">
-                            <i class="fas fa-phone-alt" style="padding-right: 10px;"></i><span style="color: black;">+91 8939907815, &nbsp;+91 8610556926</span>
+                            <i class="fas fa-phone-alt" style="padding-right: 10px;"></i><span style="color: black;">+91
+                                8939907815, &nbsp;+91 8610556926</span>
                         </div>
                     </div>
                 </div>
@@ -524,53 +528,99 @@ inspiration always remains the wellness of the world.
         });
     </script>
     <script>
-            $('.owl-carousel').owlCarousel({
-                autoplay: false,
-                // autoplayTimeout: 2000,
-                autoplayHoverPause: true,
-                stagePadding: 0,
-                lazyLoad: true,
-                items: 4,
-                margin: 5,
-                loop: false,
-                // autoWidth:true,
-                dots: false,
-                nav: false,
-                responsive: {
-                    0: {
-                        items: 1,
-                        autoplay: true,
-                        autoplayTimeout: 5000,
-                        loop: true,
-                        dots: true
-                    },
-                    485: {
-                        items: 2,
-                        autoplay: true,
-                        autoplayTimeout: 5000,
-                        loop: true,
-                        dots: true
-                    },
-                    728: {
-                        items: 3,
-                        autoplay: true,
-                        autoplayTimeout: 5000,
-                        loop: true,
-                        dots: true
-                    },
-                    960: {
-                        items: 4,
-                        autoplay: false,
-                        dots: false
-                    },
-                    1200: {
-                        items: 4,
-                        autoplay: false,
-                        dots: false
-                    }
+        $('.owl-carousel').owlCarousel({
+            autoplay: false,
+            // autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            stagePadding: 0,
+            lazyLoad: true,
+            items: 4,
+            margin: 5,
+            loop: false,
+            // autoWidth:true,
+            dots: false,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1,
+                    autoplay: true,
+                    autoplayTimeout: 5000,
+                    loop: true,
+                    dots: true
+                },
+                485: {
+                    items: 2,
+                    autoplay: true,
+                    autoplayTimeout: 5000,
+                    loop: true,
+                    dots: true
+                },
+                728: {
+                    items: 3,
+                    autoplay: true,
+                    autoplayTimeout: 5000,
+                    loop: true,
+                    dots: true
+                },
+                960: {
+                    items: 4,
+                    autoplay: false,
+                    dots: false
+                },
+                1200: {
+                    items: 4,
+                    autoplay: false,
+                    dots: false
                 }
-            })
-        </script>
+            }
+        })
+    </script>
+    <script>
+        $('body').scrollspy({ target: '#contnav' });
+
+        // Add smooth scrolling
+        $('#contnav a').on('click', function (e) {
+            // Check for a hash value
+            if (this.hash !== '') {
+                // Prevent default behavior
+                e.preventDefault();
+
+                // Store hash
+                const hash = this.hash;
+
+                // Animate smooth scroll
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 900, function () {
+                    // Add hash to URL after scroll
+                    window.location.hash = hash;
+                });
+            }
+        });
+    </script>
+    <script>
+        $('body').scrollspy({ target: '#visit' });
+
+        // Add smooth scrolling
+        $('#visit').on('click', function (e) {
+            // Check for a hash value
+            if (this.hash !== '') {
+                // Prevent default behavior
+                e.preventDefault();
+
+                // Store hash
+                const hash = this.hash;
+
+                // Animate smooth scroll
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 900, function () {
+                    // Add hash to URL after scroll
+                    window.location.hash = hash;
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>

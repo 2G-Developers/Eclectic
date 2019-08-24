@@ -140,9 +140,9 @@ h3 {
     text-decoration: none solid rgb(34, 34, 34);
 }
 
-li a {
+/* li a {
     font-weight: bolder;
-}
+} */
 h4{
     text-align: inherit;
 }
