@@ -201,6 +201,9 @@ button:focus {outline:0;}
     .gems-text h1{
         font-size: 1.9rem;
     }
+    .sqs-heading h2{
+        text-align: center;
+    }
 }
 
 
