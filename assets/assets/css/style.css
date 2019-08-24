@@ -3,6 +3,26 @@ body {
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 }
 
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('../fonts/beyond.ttf') format('truetype');
+} 
+@font-face {
+    font-family: 'caviardreams';
+    src: url('../fonts/CaviarDreams.ttf') format('truetype');
+}
+@font-face {
+font-family: audrey;
+src: url("../fonts/Audrey.otf") format("opentype");
+}
+.caviar{
+font-family: caviardreams;
+}
+.audrey{
+font-family: audrey;
+font-size: 1.7rem;
+}
+
 .section-hero {
     /* position: relative; */
     overflow: hidden;
@@ -24,7 +44,9 @@ body {
     top: 57%;
 } */
 
-
+.service-content {
+    margin-top: 50px;
+}
 
 .div-center {
     margin-top: 100px;
@@ -94,17 +116,18 @@ h3 {
 }
 
 .section-about p {
-    font-size: 15px;
-    line-height: 22.05px;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    text-align: justify;
     word-spacing: 0px;
     text-decoration: none solid rgb(69, 69, 69);
 }
 
 .section-about h3 {
-    text-align: left;
-    font-size: 31.5px;
+    text-align: center;
+    font-size: 1.8rem;
     line-height: 37.08px;
-    font-weight: 100;
+    font-weight: 600;
     word-spacing: 0px;
     text-decoration: none solid rgb(34, 34, 34);
 }
