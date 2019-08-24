@@ -204,10 +204,22 @@ button:focus {outline:0;}
     .sqs-heading h2{
         text-align: center;
     }
+    #hideonsm {
+        display: none;
+    }
+    #displayonsm{
+        display: block;
+    }
 }
 
 
 @media (min-width: 768px) {
+    #hideonsm {
+        display: block;
+    }
+    #displayonsm{
+        display: none;
+    }
     
     #hover-toggle{
         position: absolute;
