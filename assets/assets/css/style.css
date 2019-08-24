@@ -143,6 +143,9 @@ h3 {
 li a {
     font-weight: bolder;
 }
+h4{
+    text-align: inherit;
+}
 
 .owl-prev {
     left: 10px;
@@ -191,10 +194,17 @@ button:focus {outline:0;}
     .hovereffect h2 {
         color: #FFF;
     }
+    h3 {
+        text-align: inherit;
+    }
+    .gems-text h1{
+        font-size: 1.9rem;
+    }
 }
 
 
 @media (min-width: 768px) {
+    
     #hover-toggle{
         position: absolute;
         top: 3px;
