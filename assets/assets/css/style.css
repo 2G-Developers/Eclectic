@@ -59,8 +59,10 @@ body {
 }
 
 h3 {
-    text-align: right;
-    font-size: 1.375 em;
+    text-align: justify;
+    font-size: 1.5 rem;
+    line-height: 1.5;
+    font-weight: 600;
     letter-spacing: 0.025 em;
 }
 
@@ -69,7 +71,9 @@ h3 {
 }
 
 .gem-copytext {
-    text-align: left;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1.2rem;
 }
 
 #plain-box {
@@ -218,14 +222,14 @@ button:focus {outline:0;}
         color:#fff;
         text-align:center;
         position:relative;
-        font-size:17px;
+        font-size:1.6rem;
         background:rgba(0,0,0,0.6);
         -webkit-transform:translatey(-100px);
         -ms-transform:translatey(-100px);
         transform:translatey(-100px);
         -webkit-transition:all .2s ease-in-out;
         transition:all .2s ease-in-out;
-        padding:10px;
+        padding:0;
     }
     
     .hovereffect:hover img {
