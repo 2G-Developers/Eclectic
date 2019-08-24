@@ -210,10 +210,20 @@ button:focus {outline:0;}
     #displayonsm{
         display: block;
     }
+	#about {
+	padding-top: 100px;
+}
 }
 
 
 @media (min-width: 768px) {
+	#about {
+	padding-top: 180px;
+}
+	.insta-img{
+		width: 320px;
+		height: auto;
+	}
     #hideonsm {
         display: block;
     }
