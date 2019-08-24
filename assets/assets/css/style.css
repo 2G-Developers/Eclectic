@@ -192,6 +192,7 @@ button:focus {outline:0;}
     }
 
     .hovereffect h2 {
+        text-transform: uppercase;
         color: #FFF;
     }
     h3 {
