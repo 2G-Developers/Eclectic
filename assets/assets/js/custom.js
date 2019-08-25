@@ -53,7 +53,7 @@ $(document).ready(function (){
     e.preventDefault();
     $.ajax({
     type: frm.attr('method'),
-    url: "email.php",
+    url: "test.php",
     data: frm.serialize(),
     success: function (data) {
     console.log('Submission was successful.');

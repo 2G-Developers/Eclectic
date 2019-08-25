@@ -80,6 +80,11 @@ font-family: audrey;
     padding-top: 10px;
 }
 
+.gem-text p {
+    color: black;
+    font-size: 1.3rem;
+}
+
 h3 {
     text-align: justify;
     font-size: 1.45rem;
@@ -96,6 +101,11 @@ h3 {
     text-align: justify;
     line-height: 1.5;
     font-size: 1.2rem;
+    padding-top: .5rem;
+}
+
+.gem-copytext h4 {
+    font-size: 1.7rem;
 }
 
 #plain-box {
@@ -213,6 +223,10 @@ button:focus {outline:0;}
 	#about {
 	padding-top: 100px;
 }
+.insta-images img{
+		width: 320px;
+		height: auto;
+	}
 }
 
 
@@ -220,10 +234,7 @@ button:focus {outline:0;}
 	#about {
 	padding-top: 180px;
 }
-	.insta-img{
-		width: 320px;
-		height: auto;
-	}
+	
     #hideonsm {
         display: block;
     }

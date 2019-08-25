@@ -1,0 +1,196 @@
+[24-Aug-2019 17:14:07 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 17:14:07 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:20:16 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:20:16 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:20:17 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:20:17 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:20:22 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:20:22 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:20:50 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:20:50 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:20:58 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:20:58 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:21:16 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:21:16 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:06 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:06 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:15 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:15 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:17 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:17 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:19 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:19 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:28 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:28 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:32 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:32 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:33 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:33 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:33 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:33 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:34 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:34 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:34 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:34 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:37 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:37 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:38 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:38 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:39 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:25:39 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:31:28 UTC] PHP Notice:  Undefined index: cpname in /home/n6bhsitj4uy0/public_html/email.php on line 7
+[24-Aug-2019 18:31:28 UTC] PHP Notice:  Undefined index: cpemail in /home/n6bhsitj4uy0/public_html/email.php on line 8
+[24-Aug-2019 18:31:28 UTC] PHP Notice:  Undefined index: cpphone in /home/n6bhsitj4uy0/public_html/email.php on line 10
+[24-Aug-2019 18:31:28 UTC] PHP Notice:  Undefined index: cpmailmessage in /home/n6bhsitj4uy0/public_html/email.php on line 11
+[24-Aug-2019 18:32:20 UTC] PHP Notice:  Undefined index: cpemail in /home/n6bhsitj4uy0/public_html/email.php on line 8
+[24-Aug-2019 18:32:55 UTC] PHP Notice:  Undefined index: cpemail in /home/n6bhsitj4uy0/public_html/email.php on line 8
+[24-Aug-2019 18:35:30 UTC] PHP Notice:  Undefined index: cpname in /home/n6bhsitj4uy0/public_html/email.php on line 7
+[24-Aug-2019 18:35:30 UTC] PHP Notice:  Undefined index: cpemail in /home/n6bhsitj4uy0/public_html/email.php on line 8
+[24-Aug-2019 18:35:30 UTC] PHP Notice:  Undefined index: cpphone in /home/n6bhsitj4uy0/public_html/email.php on line 10
+[24-Aug-2019 18:35:30 UTC] PHP Notice:  Undefined index: cpmailmessage in /home/n6bhsitj4uy0/public_html/email.php on line 11
+[24-Aug-2019 18:37:13 UTC] PHP Notice:  Undefined index: cpname in /home/n6bhsitj4uy0/public_html/email.php on line 7
+[24-Aug-2019 18:37:13 UTC] PHP Notice:  Undefined index: cpemail in /home/n6bhsitj4uy0/public_html/email.php on line 8
+[24-Aug-2019 18:37:13 UTC] PHP Notice:  Undefined index: cpphone in /home/n6bhsitj4uy0/public_html/email.php on line 10
+[24-Aug-2019 18:37:13 UTC] PHP Notice:  Undefined index: cpmailmessage in /home/n6bhsitj4uy0/public_html/email.php on line 11
+[24-Aug-2019 18:39:08 UTC] PHP Notice:  Undefined index: cpname in /home/n6bhsitj4uy0/public_html/email.php on line 7
+[24-Aug-2019 18:39:08 UTC] PHP Notice:  Undefined index: cpemail in /home/n6bhsitj4uy0/public_html/email.php on line 8
+[24-Aug-2019 18:39:08 UTC] PHP Notice:  Undefined index: cpphone in /home/n6bhsitj4uy0/public_html/email.php on line 10
+[24-Aug-2019 18:39:08 UTC] PHP Notice:  Undefined index: cpmailmessage in /home/n6bhsitj4uy0/public_html/email.php on line 11
+[24-Aug-2019 18:39:50 UTC] PHP Notice:  Undefined index: cpname in /home/n6bhsitj4uy0/public_html/email.php on line 7
+[24-Aug-2019 18:39:50 UTC] PHP Notice:  Undefined index: cpemail in /home/n6bhsitj4uy0/public_html/email.php on line 8
+[24-Aug-2019 18:39:50 UTC] PHP Notice:  Undefined index: cpphone in /home/n6bhsitj4uy0/public_html/email.php on line 10
+[24-Aug-2019 18:39:50 UTC] PHP Notice:  Undefined index: cpmailmessage in /home/n6bhsitj4uy0/public_html/email.php on line 11
+[24-Aug-2019 18:40:27 UTC] PHP Notice:  Undefined index: cpname in /home/n6bhsitj4uy0/public_html/email.php on line 7
+[24-Aug-2019 18:40:27 UTC] PHP Notice:  Undefined index: cpemail in /home/n6bhsitj4uy0/public_html/email.php on line 8
+[24-Aug-2019 18:40:27 UTC] PHP Notice:  Undefined index: cpphone in /home/n6bhsitj4uy0/public_html/email.php on line 10
+[24-Aug-2019 18:40:27 UTC] PHP Notice:  Undefined index: cpmailmessage in /home/n6bhsitj4uy0/public_html/email.php on line 11
+[24-Aug-2019 18:40:47 UTC] PHP Notice:  Undefined index: cpname in /home/n6bhsitj4uy0/public_html/email.php on line 7
+[24-Aug-2019 18:40:47 UTC] PHP Notice:  Undefined index: cpemail in /home/n6bhsitj4uy0/public_html/email.php on line 8
+[24-Aug-2019 18:40:47 UTC] PHP Notice:  Undefined index: cpphone in /home/n6bhsitj4uy0/public_html/email.php on line 10
+[24-Aug-2019 18:40:47 UTC] PHP Notice:  Undefined index: cpmailmessage in /home/n6bhsitj4uy0/public_html/email.php on line 11
+[24-Aug-2019 18:55:36 UTC] PHP Notice:  Undefined index: cpemail in /home/n6bhsitj4uy0/public_html/email.php on line 8
+[24-Aug-2019 18:56:20 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:56:20 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 18:56:53 UTC] PHP Notice:  Undefined index: cpname in /home/n6bhsitj4uy0/public_html/email.php on line 7
+[24-Aug-2019 18:56:53 UTC] PHP Notice:  Undefined index: cpemail in /home/n6bhsitj4uy0/public_html/email.php on line 8
+[24-Aug-2019 18:56:53 UTC] PHP Notice:  Undefined index: cpphone in /home/n6bhsitj4uy0/public_html/email.php on line 10
+[24-Aug-2019 18:56:53 UTC] PHP Notice:  Undefined index: cpmailmessage in /home/n6bhsitj4uy0/public_html/email.php on line 11
+[24-Aug-2019 18:57:49 UTC] PHP Notice:  Undefined index: cpname in /home/n6bhsitj4uy0/public_html/email.php on line 7
+[24-Aug-2019 18:57:49 UTC] PHP Notice:  Undefined index: cpemail in /home/n6bhsitj4uy0/public_html/email.php on line 8
+[24-Aug-2019 18:57:49 UTC] PHP Notice:  Undefined index: cpphone in /home/n6bhsitj4uy0/public_html/email.php on line 10
+[24-Aug-2019 18:57:49 UTC] PHP Notice:  Undefined index: cpmailmessage in /home/n6bhsitj4uy0/public_html/email.php on line 11
+[24-Aug-2019 18:59:33 UTC] PHP Notice:  Undefined index: cpname in /home/n6bhsitj4uy0/public_html/email.php on line 7
+[24-Aug-2019 18:59:33 UTC] PHP Notice:  Undefined index: cpemail in /home/n6bhsitj4uy0/public_html/email.php on line 8
+[24-Aug-2019 18:59:33 UTC] PHP Notice:  Undefined index: cpphone in /home/n6bhsitj4uy0/public_html/email.php on line 10
+[24-Aug-2019 18:59:33 UTC] PHP Notice:  Undefined index: cpmailmessage in /home/n6bhsitj4uy0/public_html/email.php on line 11
+[24-Aug-2019 19:22:27 UTC] PHP Notice:  Undefined index: cpname in /home/n6bhsitj4uy0/public_html/email.php on line 7
+[24-Aug-2019 19:22:27 UTC] PHP Notice:  Undefined index: cpemail in /home/n6bhsitj4uy0/public_html/email.php on line 8
+[24-Aug-2019 19:22:27 UTC] PHP Notice:  Undefined index: cpphone in /home/n6bhsitj4uy0/public_html/email.php on line 10
+[24-Aug-2019 19:22:27 UTC] PHP Notice:  Undefined index: cpmailmessage in /home/n6bhsitj4uy0/public_html/email.php on line 11
+[24-Aug-2019 19:25:58 UTC] PHP Notice:  Undefined index: cpname in /home/n6bhsitj4uy0/public_html/email.php on line 7
+[24-Aug-2019 19:25:58 UTC] PHP Notice:  Undefined index: cpemail in /home/n6bhsitj4uy0/public_html/email.php on line 8
+[24-Aug-2019 19:25:58 UTC] PHP Notice:  Undefined index: cpphone in /home/n6bhsitj4uy0/public_html/email.php on line 10
+[24-Aug-2019 19:25:58 UTC] PHP Notice:  Undefined index: cpmailmessage in /home/n6bhsitj4uy0/public_html/email.php on line 11
+[24-Aug-2019 19:35:09 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 19:35:09 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[24-Aug-2019 19:42:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Mail' not found in /home/n6bhsitj4uy0/public_html/email.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/n6bhsitj4uy0/public_html/email.php on line 14
+[25-Aug-2019 08:07:25 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[25-Aug-2019 08:07:25 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[25-Aug-2019 08:07:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Mail' not found in /home/n6bhsitj4uy0/public_html/email.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/n6bhsitj4uy0/public_html/email.php on line 15
+[25-Aug-2019 08:07:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Mail' not found in /home/n6bhsitj4uy0/public_html/email.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/n6bhsitj4uy0/public_html/email.php on line 15
+[25-Aug-2019 08:12:05 UTC] PHP Notice:  Undefined variable: letter in /home/n6bhsitj4uy0/public_html/email.php on line 12
+[25-Aug-2019 08:12:05 UTC] PHP Warning:  fopen(../../letters/): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 13
+[25-Aug-2019 08:12:05 UTC] PHP Warning:  filesize(): stat failed for ../../letters/ in /home/n6bhsitj4uy0/public_html/email.php on line 14
+[25-Aug-2019 08:12:05 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/n6bhsitj4uy0/public_html/email.php on line 14
+[25-Aug-2019 08:12:05 UTC] PHP Warning:  filetype(): Lstat failed for ../../letters/ in /home/n6bhsitj4uy0/public_html/email.php on line 16
+[25-Aug-2019 08:12:05 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/n6bhsitj4uy0/public_html/email.php on line 17
+[25-Aug-2019 08:12:05 UTC] PHP Warning:  require(emailbody.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 24
+[25-Aug-2019 08:12:05 UTC] PHP Fatal error:  require(): Failed opening required 'emailbody.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 24
+[25-Aug-2019 08:12:21 UTC] PHP Notice:  Undefined variable: letter in /home/n6bhsitj4uy0/public_html/email.php on line 12
+[25-Aug-2019 08:12:21 UTC] PHP Warning:  fopen(../../letters/): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 13
+[25-Aug-2019 08:12:21 UTC] PHP Warning:  filesize(): stat failed for ../../letters/ in /home/n6bhsitj4uy0/public_html/email.php on line 14
+[25-Aug-2019 08:12:21 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/n6bhsitj4uy0/public_html/email.php on line 14
+[25-Aug-2019 08:12:21 UTC] PHP Warning:  filetype(): Lstat failed for ../../letters/ in /home/n6bhsitj4uy0/public_html/email.php on line 16
+[25-Aug-2019 08:12:21 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/n6bhsitj4uy0/public_html/email.php on line 17
+[25-Aug-2019 08:12:21 UTC] PHP Warning:  require(emailbody.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 24
+[25-Aug-2019 08:12:21 UTC] PHP Fatal error:  require(): Failed opening required 'emailbody.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 24
+[25-Aug-2019 08:12:24 UTC] PHP Notice:  Undefined variable: letter in /home/n6bhsitj4uy0/public_html/email.php on line 12
+[25-Aug-2019 08:12:24 UTC] PHP Warning:  fopen(../../letters/): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 13
+[25-Aug-2019 08:12:24 UTC] PHP Warning:  filesize(): stat failed for ../../letters/ in /home/n6bhsitj4uy0/public_html/email.php on line 14
+[25-Aug-2019 08:12:24 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/n6bhsitj4uy0/public_html/email.php on line 14
+[25-Aug-2019 08:12:24 UTC] PHP Warning:  filetype(): Lstat failed for ../../letters/ in /home/n6bhsitj4uy0/public_html/email.php on line 16
+[25-Aug-2019 08:12:24 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/n6bhsitj4uy0/public_html/email.php on line 17
+[25-Aug-2019 08:12:24 UTC] PHP Warning:  require(emailbody.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 24
+[25-Aug-2019 08:12:24 UTC] PHP Fatal error:  require(): Failed opening required 'emailbody.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 24
+[25-Aug-2019 08:19:51 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[25-Aug-2019 08:19:51 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[25-Aug-2019 08:24:58 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[25-Aug-2019 08:24:58 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[25-Aug-2019 08:25:35 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[25-Aug-2019 08:25:35 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/email.php on line 2
+[25-Aug-2019 01:34:07 America/Phoenix] PHP Notice:  Undefined index: OS in /home/n6bhsitj4uy0/public_html/mail_test(1).php on line 3525
+[25-Aug-2019 01:35:21 America/Phoenix] PHP Notice:  Undefined index: OS in /home/n6bhsitj4uy0/public_html/mail_test(1).php on line 3525
+[25-Aug-2019 01:35:49 America/Phoenix] PHP Notice:  Undefined index: OS in /home/n6bhsitj4uy0/public_html/mail_test(1).php on line 3525
+[25-Aug-2019 01:36:32 America/Phoenix] PHP Notice:  Undefined index: OS in /home/n6bhsitj4uy0/public_html/mail_test(1).php on line 3525
+[25-Aug-2019 01:37:09 America/Phoenix] PHP Notice:  Undefined index: OS in /home/n6bhsitj4uy0/public_html/mail_test(1).php on line 3525
+[25-Aug-2019 01:56:17 America/Phoenix] PHP Notice:  Undefined index: cpname in /home/n6bhsitj4uy0/public_html/mail_test(1).php on line 3520
+[25-Aug-2019 01:56:17 America/Phoenix] PHP Notice:  Undefined index: OS in /home/n6bhsitj4uy0/public_html/mail_test(1).php on line 3525
+[25-Aug-2019 01:57:15 America/Phoenix] PHP Notice:  Undefined index: cpname in /home/n6bhsitj4uy0/public_html/mail_test(1).php on line 3520
+[25-Aug-2019 01:57:15 America/Phoenix] PHP Notice:  Undefined index: OS in /home/n6bhsitj4uy0/public_html/mail_test(1).php on line 3525
+[25-Aug-2019 02:01:07 America/Phoenix] PHP Notice:  Undefined index: OS in /home/n6bhsitj4uy0/public_html/email.php on line 3525
+[25-Aug-2019 02:03:12 America/Phoenix] PHP Notice:  Undefined index: OS in /home/n6bhsitj4uy0/public_html/email.php on line 3525
+[25-Aug-2019 02:05:53 America/Phoenix] PHP Notice:  Undefined index: OS in /home/n6bhsitj4uy0/public_html/email.php on line 3525
+[25-Aug-2019 02:06:42 America/Phoenix] PHP Notice:  Undefined index: cpname in /home/n6bhsitj4uy0/public_html/email.php on line 3520
+[25-Aug-2019 02:06:42 America/Phoenix] PHP Notice:  Undefined index: OS in /home/n6bhsitj4uy0/public_html/email.php on line 3525
+[25-Aug-2019 02:07:58 America/Phoenix] PHP Notice:  Undefined index: OS in /home/n6bhsitj4uy0/public_html/email.php on line 3525
+[25-Aug-2019 09:16:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Mail' not found in /home/n6bhsitj4uy0/public_html/_email.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/n6bhsitj4uy0/public_html/_email.php on line 15
+[25-Aug-2019 09:28:04 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/test.php on line 2
+[25-Aug-2019 09:28:04 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/test.php on line 2
+[25-Aug-2019 09:28:35 UTC] PHP Notice:  Undefined index: cpname in /home/n6bhsitj4uy0/public_html/test.php on line 8
+[25-Aug-2019 09:28:35 UTC] PHP Notice:  Undefined index: cpemail in /home/n6bhsitj4uy0/public_html/test.php on line 9
+[25-Aug-2019 09:28:35 UTC] PHP Notice:  Undefined index: cpphone in /home/n6bhsitj4uy0/public_html/test.php on line 11
+[25-Aug-2019 09:28:35 UTC] PHP Notice:  Undefined index: cpmailmessage in /home/n6bhsitj4uy0/public_html/test.php on line 12
+[25-Aug-2019 09:28:58 UTC] PHP Notice:  Undefined index: cpname in /home/n6bhsitj4uy0/public_html/test.php on line 8
+[25-Aug-2019 09:28:58 UTC] PHP Notice:  Undefined index: cpemail in /home/n6bhsitj4uy0/public_html/test.php on line 9
+[25-Aug-2019 09:28:58 UTC] PHP Notice:  Undefined index: cpphone in /home/n6bhsitj4uy0/public_html/test.php on line 11
+[25-Aug-2019 09:28:58 UTC] PHP Notice:  Undefined index: cpmailmessage in /home/n6bhsitj4uy0/public_html/test.php on line 12
+[25-Aug-2019 09:29:46 UTC] PHP Notice:  Undefined index: cpname in /home/n6bhsitj4uy0/public_html/test.php on line 8
+[25-Aug-2019 09:29:46 UTC] PHP Notice:  Undefined index: cpemail in /home/n6bhsitj4uy0/public_html/test.php on line 9
+[25-Aug-2019 09:29:46 UTC] PHP Notice:  Undefined index: cpphone in /home/n6bhsitj4uy0/public_html/test.php on line 11
+[25-Aug-2019 09:29:46 UTC] PHP Notice:  Undefined index: cpmailmessage in /home/n6bhsitj4uy0/public_html/test.php on line 12
+[25-Aug-2019 09:32:26 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/_email.php on line 2
+[25-Aug-2019 09:32:26 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/_email.php on line 2
+[25-Aug-2019 09:32:58 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/n6bhsitj4uy0/public_html/_email.php on line 2
+[25-Aug-2019 09:32:58 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/n6bhsitj4uy0/public_html/_email.php on line 2
+[25-Aug-2019 09:44:05 UTC] PHP Fatal error:  Class 'SMTP' not found in /home/n6bhsitj4uy0/public_html/test.php on line 775
+[25-Aug-2019 09:46:26 UTC] PHP Fatal error:  Call to a member function getMessage() on boolean in /home/n6bhsitj4uy0/public_html/_email.php on line 32
+[25-Aug-2019 09:46:35 UTC] PHP Fatal error:  Call to a member function getMessage() on boolean in /home/n6bhsitj4uy0/public_html/_email.php on line 32
+[25-Aug-2019 09:48:19 UTC] PHP Notice:  Undefined variable: hostname in /home/n6bhsitj4uy0/public_html/test.php on line 2327
+[25-Aug-2019 09:48:19 UTC] PHP Notice:  Undefined variable: from in /home/n6bhsitj4uy0/public_html/test.php on line 2333
+[25-Aug-2019 09:48:19 UTC] PHP Notice:  Undefined variable: toemail in /home/n6bhsitj4uy0/public_html/test.php on line 2335
+[25-Aug-2019 09:48:19 UTC] PHP Notice:  Undefined variable: subject in /home/n6bhsitj4uy0/public_html/test.php on line 2337
+[25-Aug-2019 09:48:19 UTC] PHP Notice:  Undefined variable: message in /home/n6bhsitj4uy0/public_html/test.php on line 2338
+[25-Aug-2019 09:50:40 UTC] PHP Notice:  Undefined variable: hostname in /home/n6bhsitj4uy0/public_html/test.php on line 2331
+[25-Aug-2019 09:50:40 UTC] PHP Fatal error:  Class 'SMTP' not found in /home/n6bhsitj4uy0/public_html/test.php on line 775
+[25-Aug-2019 09:50:53 UTC] PHP Notice:  Undefined variable: hostname in /home/n6bhsitj4uy0/public_html/test.php on line 2331
+[25-Aug-2019 09:50:53 UTC] PHP Fatal error:  Class 'SMTP' not found in /home/n6bhsitj4uy0/public_html/test.php on line 775
+[25-Aug-2019 09:51:57 UTC] PHP Notice:  Undefined index: COMPUTERNAME in /home/n6bhsitj4uy0/public_html/test.php on line 2351
+[25-Aug-2019 09:52:09 UTC] PHP Notice:  Undefined index: COMPUTERNAME in /home/n6bhsitj4uy0/public_html/test.php on line 2351
+[25-Aug-2019 02:56:23 America/Phoenix] PHP Notice:  Undefined index: cpname in /home/n6bhsitj4uy0/public_html/email.php on line 3524
+[25-Aug-2019 02:56:23 America/Phoenix] PHP Notice:  Undefined index: OS in /home/n6bhsitj4uy0/public_html/email.php on line 3529
+[25-Aug-2019 10:11:15 UTC] PHP Notice:  Undefined index: cpemail in /home/n6bhsitj4uy0/public_html/test.php on line 2355
+[25-Aug-2019 10:11:15 UTC] PHP Notice:  Undefined variable: name in /home/n6bhsitj4uy0/public_html/test.php on line 2361
+[25-Aug-2019 10:11:24 UTC] PHP Notice:  Undefined index: cpemail in /home/n6bhsitj4uy0/public_html/test.php on line 2355
+[25-Aug-2019 10:11:24 UTC] PHP Notice:  Undefined variable: name in /home/n6bhsitj4uy0/public_html/test.php on line 2361

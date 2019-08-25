@@ -125,7 +125,7 @@
                         <a class="nav-link text-dark" href="#testimonials">TESTIMONIALS</a>
                     </li>
                     <li class="nav-item" id="nav-img">
-                        <a href="./index.html" class="nav-link text-dark">
+                        <a href="./index.php" class="nav-link text-dark">
                             <img width="220" height="auto" src="assets/img/logo landscape eclectic.png" alt="">
                         </a>
                     </li>
@@ -228,12 +228,12 @@
                             finally find the one design that meets our objective. We believe that no two
                             projects are same and one client’s space differs to a great extent with
                             another’s, in terms of details and overall design. Our first step is to sit down
-                            with you and discuss in detail their specific requirements and vision for the
-                            space. This process not only helps you realize what you want but also
-                            helps us in bringing your imagination into reality. It provides you a clear
+                            with you and discuss your specific requirements and vision for the
+                            space in detail. This process not only helps us realize what we want but also
+                            helps us in bringing your imagination into reality. It provides us a clear
                             vision and opportunity to get accurate and realistic information regarding
                             the project because the clearer the vision, better the results. This thorough
-                            research and understanding, allows us to get to the pinnacle of their dream
+                            research and understanding, allows us to get to the pinnacle of your dream
                             for a comfortable space.
                         </div>
                         <div class="gem-copytext">
@@ -336,7 +336,8 @@
 					<a href="https://www.instagram.com/eclecticdesigndecor/" target="_blank" style="display: flex;color: black;text-decoration: none;align-content: flex-start;font-size: 1.45rem;font-weight: 600;">#eclecticdesigndecor</a>
 					<i class="fab fa-instagram" style="position: absolute;font-size:1.5rem;bottom:4px;right:10px;"></i>
 				</div>
-			<div class="insta-images mx-auto">
+				<div class="col-md-12">
+				    <div class="insta-images mx-auto">
 				<?php
 		// Supply a user id and an access token
 		$userid = "self";
@@ -364,7 +365,7 @@
 	<?php $count=0; foreach ($result->data as $post): ?>
 	<div class="item">
 		<!-- Renders images. @Options (thumbnail,low_resoulution, high_resolution) -->
-		<a href="https://www.instagram.com/eclecticdesigndecor/" target="_blank"><img class="insta-img img-thumbnail" src="<?= $post->images->standard_resolution->url ?>"></a>
+		<a href="https://www.instagram.com/eclecticdesigndecor/" target="_blank"><img class="img-thumbnail insta-img" src="<?= $post->images->standard_resolution->url ?>"></a>
 	</div>
 		
 	<?php $count++;
@@ -374,6 +375,8 @@
 		} endforeach ?>
 	</div>
 	</div>
+				</div>
+			
 </div>
 
             </div>
