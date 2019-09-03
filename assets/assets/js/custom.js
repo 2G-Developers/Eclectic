@@ -21,21 +21,21 @@ $(document).ready(function (){
         }}
         if ($.trim(sEmail).length == 0) {
     
-            alert('Please enter valid email address');
+            $('#inputEmail4').addClass("is-invalid");
     
             e.preventDefault();
     
         }
         else if ($.trim(sPhone).length == 0) {
     
-            alert('Please enter valid Phone Number');
+            $('#inputphone').addClass("is-invalid");
     
             e.preventDefault();
     
         }
     else if ($.trim(sName).length == 0) {
     
-            alert('Please enter valid NAME');
+        $('#inputName').addClass("is-invalid");
     
             e.preventDefault();
     
@@ -69,7 +69,7 @@ $(document).ready(function (){
         }
         else {
     
-            alert('Invalid Email Address');
+            $('#inputEmail4').addClass("is-invalid");
     
             e.preventDefault();
     
