@@ -194,3 +194,8 @@ Stack trace:
 [25-Aug-2019 10:11:15 UTC] PHP Notice:  Undefined variable: name in /home/n6bhsitj4uy0/public_html/test.php on line 2361
 [25-Aug-2019 10:11:24 UTC] PHP Notice:  Undefined index: cpemail in /home/n6bhsitj4uy0/public_html/test.php on line 2355
 [25-Aug-2019 10:11:24 UTC] PHP Notice:  Undefined variable: name in /home/n6bhsitj4uy0/public_html/test.php on line 2361
+[25-Aug-2019 11:17:51 UTC] PHP Notice:  Undefined index: cpmailmessage in /home/n6bhsitj4uy0/public_html/test.php on line 2353
+[25-Aug-2019 11:17:51 UTC] PHP Notice:  Undefined index: cpname in /home/n6bhsitj4uy0/public_html/test.php on line 2354
+[25-Aug-2019 11:17:51 UTC] PHP Notice:  Undefined index: cpmail in /home/n6bhsitj4uy0/public_html/test.php on line 2356
+[25-Aug-2019 11:17:51 UTC] PHP Notice:  Undefined index: cpphone in /home/n6bhsitj4uy0/public_html/test.php on line 2358
+[25-Aug-2019 11:17:51 UTC] PHP Notice:  Undefined index: cpmailmessage in /home/n6bhsitj4uy0/public_html/test.php on line 2359

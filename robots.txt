@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: 
+Disallow: /test.php
+
+Sitemap: http://www.eclecticdesigndecor.com/sitemap.xml

@@ -5,7 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Best Interior designers in chennai creating design, decor and thoughts for functional and artistic spaces.  At Eclectic we help you in Space planning,  3d visualization,  Interior design, Home interiors,  Shop interiors, vasthu and home automation. We also do complete turnkey projects and  rennovation projects">
     <link rel="shortcut icon" type="image/ico" href="./assets/img/favicon.ico"/>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146393732-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146393732-1');
+</script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -69,12 +79,12 @@
         $(window).scroll(function () {
             var scroll = $(window).scrollTop();
             if (scroll > position) {
-                console.log('scrollDown');
+                //console.log('scrollDown');
                 $("#navbarSupportedContent").removeClass('show');
                 $("#contnav").hide();
 
             } else {
-                console.log('scrollUp');
+                //console.log('scrollUp');
                 $("#contnav").show();
 
             }
@@ -483,18 +493,27 @@
 
                                     <input type="text" name="cpname" class="form-control" id="inputName" placeholder="Enter Your Name"
                                         required>
+                                        <div class="invalid-feedback">
+                                            Please enter a valid name
+                                            </div>
                                 </div>
 
                                 <div class="form-group col-md-3">
 
                                     <input type="tel" class="form-control" id="inputphone" name="cpphone"
                                         placeholder="Enter Your Phone" required>
+                                    <div class="invalid-feedback">
+                                            Please enter a valid phone number
+                                        </div>
                                 </div>
 
                                 <div class="form-group col-md-3">
 
                                     <input type="email"  class="form-control" id="inputEmail4" name="cpmail"
                                         placeholder="Enter Your Email" required>
+                                    <div class="invalid-feedback">
+                                    Please enter a valid email address
+                                    </div>
                                 </div>
 
                                 <div class="form-group col-md-3">
@@ -514,7 +533,7 @@
                             <i class="fas fa-envelope"></i><a href="mailto:eclecticdesigndecor@gmail.com"
                                 style="font-size: 1.1rem;padding-left: 10px;text-decoration: none;color: black;">eclecticdesigndecor@gmail.com</a>
                         </div>
-                        <div id="contact-phone" style="font-size: 0.9rem;margin-top: 10px;">
+                        <div id="contact-phone" style="margin-top: 10px;">
                             <i class="fas fa-phone-alt" style="padding-right: 10px;"></i>
                             <a href="tel:+918939907815" style="text-decoration: none;color: black;">+91
                                     8939907815</a><span>,</span>
@@ -555,7 +574,7 @@
                 animateClass: 'animated',
                 offset: 100,
                 callback: function (box) {
-                    console.log(box.tagName);
+                    //console.log(box.tagName);
                 }
             });
             wow.init();
